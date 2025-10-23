@@ -17,8 +17,3 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 
 # Set the default command
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"] 
-action.ymlname: "Print GitHub Actor and Repo Details"
-description: "A custom action that shows details about the repo where the action is running."
-runs:
-  using: "docker"
-  image: "Docker
