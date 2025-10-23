@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run custom action
-        uses: Vinitsharma0804/custom-action-challenge
+        uses: Vinitsharma0804/custom-action-challenge@main
 
