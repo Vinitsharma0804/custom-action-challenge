@@ -13,3 +13,4 @@ if [[ "$VISIBILITY" == "private" ]]; then
 else
   echo "🌍 This is a PUBLIC repository." 
   
+exit 0
